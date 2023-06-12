@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </style>
+</head>
+
+<body>
+     <!-------------------------------------NAVBAR PRINCIPAL COM LOGO----------------------------------------->
+    <div id="navbar">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid" style="align-items: center; justify-content: center;">
+              <a class="navbar-brand" href="#" style="font-size: 28px;">
+                <img src="./logo-ms.png" alt="" width="55" height="34" class="d-inline-block align-text-top">
+                  MERCADINHO MS
+              </a>
+            </div>
+          </nav>
+      </div>
+<!------------------------------------------NAVBAR BOTÕES--------------------------------------------->
+<div id="navbar-pesquisa"> 
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" style="font-size: 20px; background-color:brown; color: white;">
+      <a class="navbar-brand" href="./index.html" style="color: white;";>Página Inicial</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              Ano
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="./2018.html">2018</a></li>
+              <li><a class="dropdown-item" href="./2019.html">2019</a></li>
+              <li><a class="dropdown-item" href="./2020.html">2020</a></li>
+              <li><a class="dropdown-item" href="./2021.html">2021</a></li>
+              <li><a class="dropdown-item" href="./2022.html">2022</a></li>
+              <li><a class="dropdown-item" href="./2023.html">2023</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Adicionar função</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" style="color: white;">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+
+<!------------------------------------------CARDS--------------------------------------------->
+
+<div class="table">
+  <div id="cards">
+
+        <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+          <div class="card-header">TOTAL VENDIDO NO MÊS</div>
+            <div class="card-body">
+            <h5 class="card-title"><input style="background-color: transparent; color: white; border: transparent;">R$15.000,00</h5>
+            </div>
+        </div>
+
+        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+          <div class="card-header">TOTAL LUCRO NO MÊS</div>
+          <div class="card-body">
+            <h5 class="card-title"><input style="background-color: transparent; color: white; border: transparent;">R$5.250,00</h5>
+          </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">TOTAL VENDIDO NO ANO</div>
+          <div class="card-body">
+            <h5 class="card-title"><input style="background-color: transparent; color: white; border: transparent;">R$115.000,00</h5>
+          </div>
+        </div>
+
+        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+          <div class="card-header">TOTAL LUCRO NO ANO</div>
+          <div class="card-body">
+            <h5 class="card-title"><input style="background-color: transparent; color: white; border: transparent;">R$42.250,00</h5>
+        </div>
+    </div>
+  </div>
+</div>
+<!------------------------------------------FOOTER--------------------------------------------->
+
+    <footer class="bg-dark text-light py-3">
+      <div class="container text-center">
+        <p>&copy; 2023 Mercadinho MS</p>
+        <p>Desenvolvido por<a href="http://www.alexsantos.tech/" style="color: white; "> Alex Santos</a></p>
+      </div>
+    </footer>
+
+</body>
+
+</html>
